@@ -1,5 +1,10 @@
 # Better NexusPHP
 
+
+安装详细步骤说明
+1.在composer.json中注册namespace，之后使用composer dumpautoload 刷新依赖，假定此处的命名空间为NexusPHP。[（@744d83d）](https://blog.rhilip.info/archives/1188/)
+2.使用Composer进行rhilip/bencode库加载（注意，rhilip/bencode 库要求PHP大于5.6），并在include/core.php中添加autoload。[(@888b2107)]( https://blog.rhilip.info/archives/1187/)
+
 这是一个个人`测试+练手`项目，基于个人愿望对原版NexusPHP进行改造的repo。
 
 因为 Github上已有的 [ZJUT/NexusPHP](https://github.com/ZJUT/NexusPHP) 添加了 ucenter 组件并未提供相关数据库信息，
